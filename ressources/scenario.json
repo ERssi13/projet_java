@@ -1,0 +1,591 @@
+{
+  "titre": "Quête du Graal: Château des Ténèbres",
+  "description": "Le premier tome de la Quête du Graal, où vous devez explorer un château mystérieux et découvrir ses sombres secrets.",
+  "chapitreInitial": 1,
+  "chapitres": [
+    {
+      "id": 1,
+      "titre": "L'arrivée au château",
+      "texte": "Vous vous tenez devant l'imposante silhouette du Château des Ténèbres. Ses tours s'élèvent vers le ciel nocturne, leurs silhouettes menaçantes se découpant contre la lune blafarde. Un frisson parcourt votre échine alors que vous contemplez la forteresse abandonnée. Selon la légende, le Saint Graal se trouverait quelque part à l'intérieur, gardé par des forces mystérieuses. Vous êtes venu pour le récupérer, mais les histoires de ceux qui ont échoué avant vous résonnent dans votre esprit.",
+      "choix": [
+        {
+          "texte": "Entrer par la grande porte en chêne",
+          "destination": 2
+        },
+        {
+          "texte": "Chercher une entrée secondaire",
+          "destination": 3
+        },
+        {
+          "texte": "Examiner les alentours du château avant d'entrer",
+          "destination": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Le grand hall",
+      "texte": "Vous poussez la lourde porte en chêne qui s'ouvre dans un grincement sinistre. Vous pénétrez dans un immense hall décoré de tapisseries poussiéreuses aux motifs effacés par le temps. Des armures vides sont alignées contre les murs, comme des sentinelles silencieuses. Au centre du hall, un escalier majestueux mène à l'étage supérieur, tandis que deux couloirs s'étendent à votre gauche et à votre droite. Une odeur de vieux parchemins et de pierre humide emplit l'air.",
+      "choix": [
+        {
+          "texte": "Monter l'escalier vers l'étage supérieur",
+          "destination": 5
+        },
+        {
+          "texte": "Emprunter le couloir de gauche",
+          "destination": 6
+        },
+        {
+          "texte": "Emprunter le couloir de droite",
+          "destination": 7
+        },
+        {
+          "texte": "Examiner les armures",
+          "destination": 8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "L'entrée des serviteurs",
+      "texte": "En contournant le château, vous découvrez une petite porte en bois à moitié dissimulée par des ronces. Elle semble être une ancienne entrée pour les serviteurs. Après avoir dégagé les ronces, vous parvenez à ouvrir la porte qui révèle un étroit couloir de pierre. L'air y est confiné et humide. À la lueur de votre torche, vous distinguez des traces de pas dans la poussière. Quelqu'un est passé par ici récemment.",
+      "choix": [
+        {
+          "texte": "Suivre les traces de pas",
+          "destination": 9
+        },
+        {
+          "texte": "Ignorer les traces et explorer le couloir",
+          "destination": 10
+        },
+        {
+          "texte": "Retourner à l'entrée principale",
+          "destination": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Les alentours du château",
+      "texte": "Vous décidez d'explorer les alentours du château avant de vous aventurer à l'intérieur. En longeant les murs extérieurs, vous découvrez un petit cimetière abandonné. Les tombes sont anciennes, certaines portent des noms à moitié effacés. Au milieu du cimetière se trouve une crypte dont la porte de fer est entrouverte. Plus loin, vous apercevez ce qui semble être un ancien jardin, maintenant envahi par la végétation.",
+      "choix": [
+        {
+          "texte": "Explorer la crypte",
+          "destination": 11
+        },
+        {
+          "texte": "Explorer le jardin abandonné",
+          "destination": 12
+        },
+        {
+          "texte": "Retourner à l'entrée principale",
+          "destination": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Le palier supérieur",
+      "texte": "Vous montez l'escalier majestueux qui craque sous vos pas. Arrivé au palier supérieur, vous découvrez un large couloir éclairé par des fenêtres en ogive. De nombreuses portes jalonnent ce couloir, la plupart fermées. Trois d'entre elles attirent particulièrement votre attention : une porte ornée de symboles étranges, une porte entrouverte d'où s'échappe un filet de lumière, et une grande porte à double battant au fond du couloir.",
+      "choix": [
+        {
+          "texte": "Examiner la porte aux symboles étranges",
+          "destination": 13
+        },
+        {
+          "texte": "Jeter un œil à la porte entrouverte",
+          "destination": 14
+        },
+        {
+          "texte": "Se diriger vers la grande porte à double battant",
+          "destination": 15
+        },
+        {
+          "texte": "Redescendre au hall",
+          "destination": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Le couloir de gauche",
+      "texte": "Le couloir de gauche vous mène à ce qui semble avoir été les cuisines du château. De grandes tables en bois massif occupent le centre de la pièce, tandis que des ustensiles rouillés pendent encore aux murs. Un immense âtre occupe tout un pan de mur, mais il est éteint depuis longtemps. Vous remarquez une porte qui doit mener au garde-manger, et un escalier descendant probablement vers les caves.",
+      "choix": [
+        {
+          "texte": "Explorer le garde-manger",
+          "destination": 16
+        },
+        {
+          "texte": "Descendre à la cave",
+          "destination": 17
+        },
+        {
+          "texte": "Retourner au hall principal",
+          "destination": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titre": "Le couloir de droite",
+      "texte": "Le couloir de droite vous conduit à une grande salle qui semble avoir été une salle d'armes. Des supports vides et des râteliers attestent de la fonction passée de cette pièce. Quelques armes rouillées gisent encore çà et là. Au fond de la salle, vous apercevez une porte fermée par un lourd verrou et, près d'un mur, une armoire dont la porte est entrouverte.",
+      "choix": [
+        {
+          "texte": "Examiner les armes",
+          "destination": 18
+        },
+        {
+          "texte": "Tenter d'ouvrir la porte verrouillée",
+          "destination": 19
+        },
+        {
+          "texte": "Regarder dans l'armoire",
+          "destination": 20
+        },
+        {
+          "texte": "Retourner au hall principal",
+          "destination": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titre": "Les armures du hall",
+      "texte": "Vous vous approchez des armures alignées contre les murs du hall. Ce sont d'anciennes armures de chevaliers, noircies par le temps et couvertes de poussière. En les examinant de plus près, vous remarquez que l'une d'elles tient fermement un objet dans sa main gantée : une clé en argent. Lorsque vous tentez de la retirer, vous entendez un léger cliquetis à l'intérieur de l'armure.",
+      "choix": [
+        {
+          "texte": "Forcer pour prendre la clé",
+          "destination": 21
+        },
+        {
+          "texte": "Examiner l'armure plus attentivement",
+          "destination": 22
+        },
+        {
+          "texte": "Laisser la clé et explorer le reste du hall",
+          "destination": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titre": "La piste mystérieuse",
+      "texte": "Vous suivez les traces de pas qui s'enfoncent dans le couloir obscur. Après plusieurs détours, vous arrivez dans ce qui semble être une ancienne salle de garde. Les traces mènent à une trappe dans le sol, légèrement entrouverte. Un faible gémissement s'en échappe, à peine audible.",
+      "choix": [
+        {
+          "texte": "Ouvrir la trappe",
+          "destination": 23
+        },
+        {
+          "texte": "Appeler pour voir si quelqu'un répond",
+          "destination": 24
+        },
+        {
+          "texte": "Rebrousser chemin",
+          "destination": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titre": "Le couloir des serviteurs",
+      "texte": "Ignorant les traces, vous avancez dans le couloir qui serpente à travers les entrailles du château. Vous passez devant plusieurs petites alcôves qui devaient servir de logement aux domestiques. Au bout du couloir, vous débouchez dans une vaste salle souterraine. Plusieurs piliers soutiennent le plafond voûté, et un puits occupe le centre de la pièce. Sur un des murs, vous remarquez une fresque à moitié effacée représentant ce qui semble être la quête du Graal.",
+      "choix": [
+        {
+          "texte": "Examiner le puits",
+          "destination": 25
+        },
+        {
+          "texte": "Étudier la fresque",
+          "destination": 26
+        },
+        {
+          "texte": "Explorer les autres sorties de la salle",
+          "destination": 27
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "titre": "La crypte",
+      "texte": "Vous poussez la lourde porte de fer de la crypte qui s'ouvre dans un grincement lugubre. À l'intérieur, des marches en pierre descendent dans l'obscurité. L'air est froid et chargé d'une odeur de terre et de moisissure. En bas des marches, vous découvrez une salle circulaire ornée de sarcophages disposés en cercle. Au centre, sur un piédestal, repose une dague cérémonielle à la lame ouvragée.",
+      "choix": [
+        {
+          "texte": "Prendre la dague",
+          "destination": 28
+        },
+        {
+          "texte": "Examiner les sarcophages",
+          "destination": 29
+        },
+        {
+          "texte": "Quitter la crypte",
+          "destination": 4
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "titre": "Le jardin abandonné",
+      "texte": "Vous vous frayez un chemin à travers le jardin envahi par la végétation. Des haies autrefois taillées avec soin forment maintenant un labyrinthe sauvage. Au centre du jardin, vous découvrez une fontaine asséchée. Une statue représentant un chevalier tenant une coupe se dresse en son milieu. Près de la fontaine, un banc en pierre semble avoir été récemment utilisé : la mousse y a été essuyée, et vous y trouvez un petit carnet oublié.",
+      "choix": [
+        {
+          "texte": "Examiner la fontaine et la statue",
+          "destination": 30
+        },
+        {
+          "texte": "Feuilleter le carnet",
+          "destination": 31
+        },
+        {
+          "texte": "Retourner vers le château",
+          "destination": 4
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "titre": "La porte aux symboles",
+      "texte": "Vous vous approchez de la porte ornée de symboles étranges. En y regardant de plus près, vous reconnaissez des runes anciennes et des symboles alchimiques. La porte ne possède ni poignée ni serrure, mais au centre se trouve un mécanisme circulaire avec différents symboles que l'on peut faire tourner. Une inscription en latin au-dessus de la porte semble donner un indice sur la combinaison à trouver.",
+      "choix": [
+        {
+          "texte": "Tenter de déchiffrer l'inscription",
+          "destination": 32
+        },
+        {
+          "texte": "Essayer une combinaison au hasard",
+          "destination": 33
+        },
+        {
+          "texte": "Utiliser la clé en argent",
+          "destination": 34,
+          "conditionItem": "Clé en argent"
+        },
+        {
+          "texte": "Abandonner et explorer ailleurs",
+          "destination": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "titre": "La chambre éclairée",
+      "texte": "Vous poussez doucement la porte entrouverte et découvrez une chambre richement meublée. Une bougie brûle sur une table de chevet, éclairant la pièce d'une lueur vacillante. Le lit à baldaquin est fait, comme si quelqu'un attendait d'y dormir. Sur un bureau se trouvent des parchemins couverts d'une écriture élégante, et un médaillon en or brille à côté. Soudain, vous entendez un bruit de pas dans le couloir, qui se rapprochent.",
+      "choix": [
+        {
+          "texte": "Vous cacher sous le lit",
+          "destination": 35
+        },
+        {
+          "texte": "Prendre rapidement le médaillon et quitter la pièce",
+          "destination": 36
+        },
+        {
+          "texte": "Attendre pour voir qui arrive",
+          "destination": 37
+        },
+        {
+          "texte": "Examiner les parchemins",
+          "destination": 38
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "titre": "La salle du trône",
+      "texte": "Vous poussez la grande porte à double battant qui s'ouvre sur ce qui fut autrefois la salle du trône. La pièce est vaste, avec un plafond voûté soutenu par d'élégantes colonnes. Des vitraux colorés filtrent la lumière extérieure, projetant des motifs colorés sur le sol de marbre. Au fond de la salle, sur une estrade, se trouve un trône massif taillé dans une pierre noire. Derrière le trône, une tapisserie défraîchie représente des scènes de la quête du Graal.",
+      "choix": [
+        {
+          "texte": "Examiner le trône",
+          "destination": 39
+        },
+        {
+          "texte": "Étudier la tapisserie",
+          "destination": 40
+        },
+        {
+          "texte": "Explorer les alcôves latérales de la salle",
+          "destination": 41
+        },
+        {
+          "texte": "Quitter la salle",
+          "destination": 5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "titre": "Le garde-manger",
+      "texte": "Vous ouvrez la porte du garde-manger et pénétrez dans une pièce fraîche aux murs de pierre. Des étagères en bois couvrent les murs, la plupart vides ou garnies de bocaux poussiéreux au contenu indéfinissable. Une odeur de moisissure et d'épices séchées flotte dans l'air. En explorant plus avant, vous remarquez une étagère qui semble légèrement décalée par rapport au mur.",
+      "choix": [
+        {
+          "texte": "Examiner les bocaux",
+          "destination": 42
+        },
+        {
+          "texte": "Inspecter l'étagère décalée",
+          "destination": 43
+        },
+        {
+          "texte": "Retourner aux cuisines",
+          "destination": 6
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "titre": "La cave",
+      "texte": "Vous descendez l'escalier étroit qui mène à la cave. L'air devient plus frais et humide à mesure que vous progressez. En bas, vous découvrez une cave à vin. Des tonneaux et des étagères remplies de bouteilles poussiéreuses occupent l'espace. La plupart des étiquettes sont illisibles, effacées par le temps. Dans un coin, vous remarquez une trappe dans le sol, fermée par un cadenas rouillé. Sur un des murs, une torchère vide semble pouvoir accueillir votre torche.",
+      "choix": [
+        {
+          "texte": "Examiner les bouteilles de vin",
+          "destination": 44
+        },
+        {
+          "texte": "Tenter de forcer le cadenas de la trappe",
+          "destination": 45
+        },
+        {
+          "texte": "Placer votre torche dans la torchère",
+          "destination": 46
+        },
+        {
+          "texte": "Remonter aux cuisines",
+          "destination": 6
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "titre": "Les armes anciennes",
+      "texte": "Vous examinez les armes qui gisent dans la salle d'armes. La plupart sont en mauvais état, rongées par la rouille. Cependant, vous repérez une magnifique épée longue qui semble avoir été préservée du temps. Sa lame est ornée de gravures complexes et sa garde est incrustée de pierres qui pourraient être précieuses. À côté de l'épée se trouve un bouclier en métal, lui aussi remarquablement bien conservé, portant l'emblème d'un dragon.",
+      "choix": [
+        {
+          "texte": "Prendre l'épée",
+          "destination": 47
+        },
+        {
+          "texte": "Prendre le bouclier",
+          "destination": 48
+        },
+        {
+          "texte": "Prendre les deux",
+          "destination": 49
+        },
+        {
+          "texte": "Laisser les armes et retourner explorer la salle",
+          "destination": 7
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "titre": "La porte verrouillée",
+      "texte": "Vous vous approchez de la porte fermée par un lourd verrou. En l'examinant de plus près, vous constatez que la serrure est ancienne mais solide. Sans la clé appropriée, il sera difficile de l'ouvrir. Vous remarquez également que le bois autour de la serrure porte des marques de griffures, comme si quelqu'un ou quelque chose avait tenté de forcer la porte.",
+      "choix": [
+        {
+          "texte": "Essayer de crocheter la serrure",
+          "destination": 50
+        },
+        {
+          "texte": "Utiliser la clé en argent",
+          "destination": 51,
+          "conditionItem": "Clé en argent"
+        },
+        {
+          "texte": "Tenter d'enfoncer la porte",
+          "destination": 52
+        },
+        {
+          "texte": "Abandonner et retourner explorer la salle d'armes",
+          "destination": 7
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "titre": "L'armoire mystérieuse",
+      "texte": "Vous ouvrez complètement la porte de l'armoire pour découvrir son contenu. À l'intérieur, vous trouvez plusieurs tuniques portant l'écusson du château, probablement des uniformes pour les gardes d'antan. En fouillant plus profondément, vous découvrez un coffret en bois caché sous les vêtements. Le coffret n'est pas verrouillé et contient un parchemin jauni et un flacon rempli d'un liquide rouge rubis.",
+      "choix": [
+        {
+          "texte": "Lire le parchemin",
+          "destination": 53
+        },
+        {
+          "texte": "Examiner le flacon de liquide rouge",
+          "destination": 54
+        },
+        {
+          "texte": "Prendre le coffret et son contenu",
+          "destination": 55
+        },
+        {
+          "texte": "Refermer l'armoire et explorer ailleurs",
+          "destination": 7
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "titre": "La clé en argent",
+      "texte": "Vous décidez de forcer pour prendre la clé de la main de l'armure. Au moment où vous tirez dessus, un mécanisme s'enclenche. La main de l'armure s'ouvre soudainement, libérant la clé, mais déclenchant également un piège ! Une fléchette jaillit d'une fente dans le mur adjacent, filant droit vers vous !",
+      "choix": [
+        {
+          "texte": "Tenter d'esquiver la fléchette",
+          "destination": 56
+        },
+        {
+          "texte": "Utiliser le bouclier pour vous protéger",
+          "destination": 57,
+          "conditionItem": "Bouclier ancien"
+        },
+        {
+          "texte": "Vous jeter au sol",
+          "destination": 58
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "titre": "Une inspection minutieuse",
+      "texte": "Au lieu de forcer, vous examinez l'armure plus attentivement. En regardant de près, vous remarquez un petit bouton dissimulé sur l'avant-bras de l'armure. C'est probablement le mécanisme qui contrôle la main tenant la clé. Vous remarquez également qu'une fine aiguille est pointée vers l'extérieur, à l'intérieur du gantelet - certainement un piège pour quiconque tenterait de prendre la clé par la force.",
+      "choix": [
+        {
+          "texte": "Appuyer sur le bouton de l'avant-bras",
+          "destination": 59
+        },
+        {
+          "texte": "Chercher un autre moyen de désactiver le piège",
+          "destination": 60
+        },
+        {
+          "texte": "Abandonner l'idée de prendre la clé",
+          "destination": 2
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "titre": "La dague cérémonielle",
+      "texte": "Vous vous approchez du piédestal et prenez la dague cérémonielle. Elle est étonnamment légère dans votre main, sa lame gravée de symboles mystiques brille faiblement dans la pénombre de la crypte. Au moment où vous la saisissez, vous sentez un léger picotement parcourir vos doigts. Soudain, les inscriptions sur la lame commencent à luire d'une douce lumière bleue, éclairant les visages sculptés sur les sarcophages tout autour de vous.",
+      "choix": [
+        {
+          "texte": "Examiner les inscriptions sur la lame",
+          "destination": 61
+        },
+        {
+          "texte": "Replacer la dague sur le piédestal",
+          "destination": 62
+        },
+        {
+          "texte": "Quitter rapidement la crypte avec la dague",
+          "destination": 63
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "titre": "Le mécanisme de l'armure",
+      "texte": "Vous appuyez sur le bouton dissimulé sur l'avant-bras de l'armure. Un déclic se fait entendre, suivi d'un léger grincement métallique. La main de l'armure s'ouvre doucement, vous permettant de prendre la clé en argent sans déclencher le piège. La clé est ornée de motifs complexes et semble ancienne mais parfaitement conservée. Vous l'ajoutez à votre inventaire, certain qu'elle ouvrira une porte importante quelque part dans le château.",
+      "choix": [
+        {
+          "texte": "Continuer à explorer le hall",
+          "destination": 2
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "titre": "Les inscriptions mystiques",
+      "texte": "Vous examinez attentivement les inscriptions qui luisent sur la lame de la dague. Elles sont écrites dans une langue ancienne, mais étrangement, vous arrivez à en comprendre le sens. 'Celui qui porte cette lame pourra voir au-delà des illusions et percer les voiles du temps.' Alors que vous lisez ces mots, votre vision change subtilement. Les murs de la crypte semblent devenir translucides par endroits, révélant des passages secrets que vous n'aviez pas remarqués auparavant.",
+      "choix": [
+        {
+          "texte": "Explorer l'un des passages secrets",
+          "destination": 64
+        },
+        {
+          "texte": "Garder la dague et quitter la crypte",
+          "destination": 65
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "titre": "Le passage secret",
+      "texte": "Guidé par votre nouvelle perception, vous vous dirigez vers l'un des murs qui semble maintenant partiellement transparent. En passant votre main sur la pierre, vous sentez une légère irrégularité. Une pression à cet endroit révèle un mécanisme caché qui fait pivoter une section du mur, dévoilant un passage étroit. Tenant la dague devant vous comme une source de lumière, vous vous engagez dans le tunnel secret qui s'enfonce dans les profondeurs du château.",
+      "choix": [
+        {
+          "texte": "Avancer dans le tunnel",
+          "destination": 66
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "titre": "La chambre du Graal",
+      "texte": "Après avoir parcouru le long tunnel, vous émergez dans une salle circulaire magnifiquement décorée. Des mosaïques représentant des scènes de chevalerie ornent les murs, et un dôme de verre coloré au plafond filtre la lumière en motifs arc-en-ciel. Au centre de la pièce, sur un autel de marbre blanc, repose un calice d'or incrusté de pierres précieuses - le Saint Graal tant recherché ! Alors que vous vous en approchez, une voix éthérée emplit la salle : 'Prouvez votre valeur, chevalier, et le Graal sera vôtre.'",
+      "choix": [
+        {
+          "texte": "Saisir le Graal",
+          "destination": 67
+        },
+        {
+          "texte": "S'agenouiller et prier",
+          "destination": 68
+        },
+        {
+          "texte": "Déposer la dague cérémonielle sur l'autel",
+          "destination": 69
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "titre": "L'épreuve de la convoitise",
+      "texte": "Sans hésitation, vous tendez la main vers le Graal. Dès que vos doigts effleurent le calice sacré, une douleur brûlante parcourt votre bras. Le Graal se met à rougeoyer intensément, comme chauffé à blanc. 'La convoitise n'est pas le chemin vers la rédemption,' murmure la voix avec désapprobation. Vous retirez vivement votre main, conscient d'avoir échoué à cette épreuve.",
+      "choix": [
+        {
+          "texte": "S'agenouiller et prier",
+          "destination": 68
+        },
+        {
+          "texte": "Déposer la dague cérémonielle sur l'autel",
+          "destination": 69
+        },
+        {
+          "texte": "Quitter la chambre, abandonnant votre quête",
+          "destination": 70
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "titre": "L'épreuve de l'humilité",
+      "texte": "Vous vous agenouillez devant l'autel et baissez la tête en signe de respect et d'humilité. Une douce chaleur emplit alors la pièce, et la voix parle à nouveau : 'L'humilité est le commencement de la sagesse, mais pas la fin du voyage.' Vous avez passé cette épreuve, mais vous sentez qu'il vous en reste encore à accomplir.",
+      "choix": [
+        {
+          "texte": "Saisir maintenant le Graal",
+          "destination": 67
+        },
+        {
+          "texte": "Déposer la dague cérémonielle sur l'autel",
+          "destination": 69
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "titre": "Le sacrifice et la récompense",
+      "texte": "Vous déposez la dague cérémonielle sur l'autel, à côté du Graal. La lame se met à briller intensément, puis se dissout en particules de lumière qui viennent entourer le calice sacré. 'Le sacrifice de ce qui est précieux révèle la vraie valeur du cœur,' déclare la voix avec approbation. Le Graal s'élève alors dans les airs et vient se placer doucement entre vos mains. Une sensation de paix et de plénitude vous envahit. Vous avez accompli votre quête - le Saint Graal est vôtre!",
+      "estFinal": true,
+      "choix": []
+    },
+    {
+      "id": 70,
+      "titre": "L'abandon",
+      "texte": "Vous décidez d'abandonner votre quête, reconnaissant que vous n'êtes pas digne du Saint Graal. Alors que vous vous détournez de l'autel, la voix résonne une dernière fois : 'Même l'échec est une leçon pour ceux qui savent écouter.' Une lueur dorée illumine brièvement la salle avant de s'éteindre, vous laissant dans une semi-obscurité. Vous quittez le château des ténèbres, marqué à jamais par cette expérience, mais peut-être un jour reviendrez-vous, mieux préparé pour affronter vos propres démons...",
+      "estFinal": true,
+      "choix": []
+    }
+  ]
+}
